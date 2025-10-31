@@ -1,0 +1,28 @@
+<modDesc descVersion="103">
+    <author>Arrow</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Font Library - Chinese Pack</en>
+        <de>Schriftartenbibliothek - Chinesisch-Paket</de>
+        <fr>Bibliothèque De Polices - Chinois Latin</fr>
+    </title>
+    <description>
+        <en>
+        <![CDATA[ Chinese alphabet fonts for FS25_FontLibrary. Contains 2 fonts, each with 3706 characters, expanding the basegame Chinese alphabet. ]]>
+        </en>
+        <de>
+        <![CDATA[ Lateinische Schriftarten für FS25_FontLibrary. Enthält 2 Schriftarten mit jeweils 3706 Zeichen, die das chinesische Alphabet des Basisspiels erweitern. ]]>
+        </de>
+        <fr>
+        <![CDATA[ Polices de caractères latines pour FS25_FontLibrary. Contient 2 polices, chacune avec 3706 caractères, élargissant l'alphabet chinois du jeu de base. ]]>
+        </fr>
+    </description>
+    <iconFilename>icon_FontLibrary_ChinesePack.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="src/FontLoader.lua"/>
+    </extraSourceFiles>
+	<dependencies>
+		<dependency>FS25_FontLibrary</dependency>
+	</dependencies>
+</modDesc>
